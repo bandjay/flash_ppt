@@ -1,6 +1,9 @@
 # flash_ppt 
 
-### Genetic report automation tool at MAYO CLINIC Author: Jay Bandlamudi
+## Author: Jay Bandlamudi
+
+### Genetic report automation tool at MAYO CLINIC 
+
 
 ### Flash ppt is a software/tool written in python ,to automate the pptx genetic report generation process in data pipelines.
 
@@ -19,11 +22,11 @@
 $ sudo pip install pptx,pandas,selenium,bs4,biopython,sqlite3
 ```
 
-### Instructions to run tool by using sample vcfs [[Instrcutions]()]
+### Instructions to run tool by using sample vcfs [[Instrcutions](https://github.com/bandjay/flash_ppt/blob/master/Instructions.txt)]
 
-### class-diagram for different modules of tool [[class_diagram]()]
+### class-diagram for different modules of tool ![class_diagram](https://github.com/bandjay/flash_ppt/blob/master/class_diagram.PNG)
 
-### sample pptx report generated using the tool [[sample_report]()]
+### sample pptx report generated using the tool [[sample_report](https://github.com/bandjay/flash_ppt/blob/master/sample_report.pptx)]
 
-### More details can be found in the presentation [[Project Presentation]()]
+### More details can be found in the presentation [[Tool Presentation](https://github.com/bandjay/flash_ppt/blob/master/Tool_Presentation.pptx)]
 
