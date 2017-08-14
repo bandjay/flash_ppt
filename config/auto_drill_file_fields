@@ -1,0 +1,8 @@
+NCBI_GRCh37_p13	gene
+ClinVar_20170208_GRCh37	hgvs_c,hgvs_p,clinical_significance_ordered,measureset_id
+ExAC_r031_GRCh37	INFO.AC,INFO.AN_Adj,INFO.AC_Hom,INFO.AF_POPMAX,INFO.POPMAX
+HGMD_2016Q4_GRCh37	PubMed,DNA,FunctionalSite,GENE,ID,MUT,PHEN,PROT,STRAND
+omim_20170405_GRCh37p13_EnsemblGTF_75	Phenotypes
+hgnc_37_20151224	ensembl_gene_id,entrez_id,omim_id,ucsc_id,uniprot_ids,location
+dbNSFP_v3a_GRCh37	Genename,SiftPred,Polyphen2HvarPred,MetalrPred,MutationtasterPred,Vest3Score
+HPO_Build_1241_GRCh37	term

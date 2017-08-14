@@ -1,0 +1,8 @@
+NCBI_GRCh37_p13	bior_overlap	/data5/bsi/catalogs/bior/v1/NCBIGene/GRCh37_p13/genes.tsv.bgz
+ClinVar_20170208_GRCh37	bior_same_variant	/data5/bsi/catalogs/bior/v1/ClinVar/20170208_GRCh37/variants.v1/macarthur-lab_xml.tsv.bgz
+ExAC_r031_GRCh37	bior_same_variant	/data5/bsi/catalogs/bior/v1/ExAC/r0.3.1_GRCh37/variants.v1/ExAC.r0.3.1.tsv.bgz
+HGMD_2016Q4_GRCh37	bior_same_variant	/data5/bsi/catalogs/bior/v1/HGMD/2016.4_GRCh37/variants.v1/HGMD_PRO_2016.4.vcf.tsv.bgz
+omim_20170405_GRCh37p13_EnsemblGTF_75	bior_overlap	/data5/bsi/catalogs/bior/v1/omim/20170405_GRCh37.p13/disease.v1/omim_genemap_ensembl_gtf.tsv.bgz
+hgnc_37_20151224	bior_overlap	/data5/bsi/catalogs/user/v1/hgnc/2015_12_24/hgnc_GRCh37.tsv.bgz
+dbNSFP_v3a_GRCh37	bior_same_variant	/data5/bsi/catalogs/bior/v1/dbNSFP/3.0a_GRCh37/variants_nodups.v1/dbNSFPv3.0a.zip.tsv.bgz
+HPO_Build_1241_GRCh37	bior_overlap	/data5/bsi/catalogs/user/v1/gene_ontology/HPO/2017_07_12/HumanPhenotypeOntology.tsv.bgz

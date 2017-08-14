@@ -1,0 +1,39 @@
+Instructions to run automated reporting tool:
+***********
+Using tool:
+***********
+
+***********
+Step -1 requires bior annotate so skip this step for sample report 
+***********
+1. First step is to generate annoatated vcf from variants file using bior_annotate and navigate to cd ~/flash_ppt/src
+2. Process to run bior_annotate on a variant file
+	i) RUN "python annotate_variants.py -h"
+		'-i' [path to variant file] 
+		'-n' [Name for annotated vcf file] 
+		'-o' [output directory to save annoatated vcf]
+	ii) Example command "python annotate_variants.py -i flash_ppt/sample_variants/sample_variant.txt -n sample_vcf -o flash_ppt/sample_vcfs
+
+************
+step -2 naviagte to `cd ~/flash_ppt/src`
+************
+3. After obtaining annotated vcf we can generate pptx report
+4. RUN "python run_tool.py -h" for help.
+5. Read the list of required input fields to generate a report
+	'-i'	'input vcf file path with allowed formats .vcf or .vcf.gz'
+	'-o'	'output path to save the report'
+	'-n'	'file name you prefer for the report'
+	'-d'	'path to save the sqlite database'
+6. Example run command "python run_tool.py -i flash_ppt/sample_vcfs/sample.vcf.vcf.gz -n sample_report -o ~/flash_ppt -d ~/flash_ppt"
+7. Report can be found at given output path ["-o" field]
+
+
+**************************
+Tool maintenance details:
+**************************
+1. Gene details Database can be refreshed by running "python Database_refresh.py" from ~/flash_ppt/src' directory
+2. In order to add new information/fields to the automated presentation follow these steps 
+	i) Make cahnges to 'drill_file_fields.txt' in the ~/flash_ppt/config' directory .Add/delete necessary the catalog,fields information.
+	ii) Go to 'generate_ppt_content.py' in the '~/flash_ppt/src' directory . Make necessary in the generate_content() method.
+3. To change the template , make changes to "template.pptx" in the '~/flash_ppt/ppt_template' directory (NOTE: template should contain 62 slides to accomodate maximum of 30 variants)
+4. Capturing screenshots of gene summaries,tables from several websites can be enabled by uncommenting screen shots module in 'generate_ppt_content.py' file in '~/flash_ppt/src' directory.
